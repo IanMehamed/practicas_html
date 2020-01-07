@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+    <title>Contacto</title>
+    <meta content="text/html; charset=utf-8" />
+    <meta name="Description" content="un formulario para llenar con datos de una persona" />
+    <meta name="language" content="Spanish">
+    <meta name="author" content="Ian Mehamed" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=2"/>
+</head>
+    <body><form name="Formulario" method="post" action="file:///home/ian/Documents/Programacion/EDI/Parcial1/contacto.html">
+        <table>
+            <tr><td>
+                    Nombre:
+                    <input type="text" name="Nombre" value="" placeholder="Nombre" maxlength="20" required>
+                </td>
+            </tr>
+            <tr><td>
+                    Apellido:
+                    <input type="text" name="Apellido" value="" placeholder="Apellido" maxlength="20" required>
+                </td>
+            </tr>
+            <tr><td>
+                    Email:
+                    <input type="text" name="Email" value="" placeholder="Email"
+                           minlength="10" maxlength="40" required>
+                </td>
+            </tr>
+            <tr><td>
+                    Fecha de Nacimiento:
+                    <input type="date" name="fecha" min="1910-01-01"
+                           max="2014-01-01" step="2">
+                </td>
+            </tr>
+            <tr><td>
+                    Deporte Favorito:
+                    <select name="deporte">
+                        <option value=" "> - </option>
+                        <option value="Futbol">Futbol</option>
+                        <option value="Voley">Voley</option>
+                        <option value="Tenis">Tenis</option>
+                        <option value="Natación">Natacion</option>
+			<option value="Rugby">Rugby</option>
+                    </select>
+                </td>
+            </tr>
+            <tr><td>
+                    <input type="reset" value="Borrar">
+
+                    <input type="submit" value="Enviar">
+                </td>
+            </tr>
+        </table>
+	<br>
+   		 <a href="index.html">Volver al Inicio!</a>
+    </form></body>
+</html>
